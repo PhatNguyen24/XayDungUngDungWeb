@@ -5,6 +5,7 @@
         padding: 40px 40px;
     }
 
+    /* home page */
     #navbar {
         display: flex;
         align-items: flex-start;
@@ -151,5 +152,16 @@
     }
     footer .copyright{
         text-align: start;
+    }
+
+    /* single product */
+    #prodetails {
+        flex-direction: column;
+    }
+    #prodetails .single-pro-image {
+        width: 100% ;
+    }
+    #prodetails .single-pro-details {
+        width: 100%;
     }
 }
