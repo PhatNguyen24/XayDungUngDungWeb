@@ -1,7 +1,7 @@
 /* media reponsive */
 /* ipad :))*/
 @media (max-width:799px) {
-    .section-p1 {
+    .section-p {
         padding: 40px 40px;
     }
 
@@ -54,7 +54,7 @@
         display: none;
     }
 
-    #hero {
+    #home-top {
         height: 70vh;
         padding: 0 80px;
         background-position: top -30% right 30%;
@@ -68,11 +68,11 @@
         margin: 15px 15px;
     }
 
-    #product1 .pro-container {
+    #product .pro-container {
         justify-content: center;
     }
 
-    #product1 .pro {
+    #product .pro {
         margin: 15px;
     }
 
@@ -80,7 +80,7 @@
         height: 20vh;
     }
 
-    #sm-banner .banner-box {
+    #banner2 .banner-box {
         min-width: 100%;
         /* width: 630px; */
         height: 30vh;
@@ -98,12 +98,33 @@
         width: 70%;
     }
 
+    /* about  */
+
+    #about-head {
+        flex-direction: column;
+    }
+    #about-head img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #about-head div {
+        padding-left: 0px;
+    }
+    #about-app video {
+        width: 100%;
+    }
+
     /* contact  */
-    #form-details{
+    #form{
         padding: 25px;
     }
-    #form-details form {
+    #form form {
         margin-right: 25px;
+    }
+
+    /* cart  */
+    #cart{
+        overflow-x: auto; 
     }
 
 }
@@ -111,7 +132,7 @@
 /* iphone x =)) */
 
 @media(max-width: 477px){
-    .section-p1{
+    .section-p{
         padding: 20px;
     }
     #header{
@@ -124,7 +145,7 @@
         font-size: 32px;
 
     }
-    #hero{
+    #home-top{
         padding: 0 20px;
         background-position: 55%;
     }
@@ -135,16 +156,16 @@
         width: 155px;
         margin: 0 0 15px 0;
     }
-    #product1 .pro{
+    #product .pro{
         width: 100%;
     }
     #banner {
         height: 40vh;
     }
-    #sm-banner .banner-box{
+    #banner2 .banner-box{
         height: 40vh;
     }
-    #sm-banner .banner-box {
+    #banner2 .banner-box {
         margin-top: 20px;
     }
     #banner3{
@@ -191,39 +212,40 @@
         width: 100%;
     }
     /* about page  */
-    #about-head {
-        flex-direction: column;
-    }
-    #about-head img {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-    #about-head div {
-        padding-left: 0px;
-    }
-    #about-app video {
-        width: 100%;
-    }
+    
 
     /* contact  */
-    #contact-details {
+    #contact {
         flex-direction: column;
     }
 
-    #contact-details .details {
+    #contact .details {
         width: 100%;
     }
-    #contact-details .map {
+    #contact .map {
         width: 100%;
     }
-    #form-details {
+    #form{
         flex-direction: column;
     }
-    #form-details form {
+    #form form {
         width: 100%;
         margin-bottom: 40px;
     }
-    #form-details .people div p {
+    #form .people div p {
         overflow: scroll;
+    }
+
+    /* cart  */
+     
+    #cart-add {
+        flex-direction: column;
+    }
+    #coupon {
+        width: 100%;
+    }
+    #subtotal {
+        width: 100%;
+        padding: 20px;
     }
 }

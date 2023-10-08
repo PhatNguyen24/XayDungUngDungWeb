@@ -14,7 +14,7 @@ if (close) {
     })
 }
 
-// chuyen anh 
+// pick photo
 const MainImg = document.getElementById("MainImg");
 const smallimg = document.getElementsByClassName("small-img");
 smallimg[0].onclick = function () {
