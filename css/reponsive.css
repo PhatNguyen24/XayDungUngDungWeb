@@ -98,6 +98,14 @@
         width: 70%;
     }
 
+    /* contact  */
+    #form-details{
+        padding: 25px;
+    }
+    #form-details form {
+        margin-right: 25px;
+    }
+
 }
 
 /* iphone x =)) */
@@ -195,5 +203,27 @@
     }
     #about-app video {
         width: 100%;
+    }
+
+    /* contact  */
+    #contact-details {
+        flex-direction: column;
+    }
+
+    #contact-details .details {
+        width: 100%;
+    }
+    #contact-details .map {
+        width: 100%;
+    }
+    #form-details {
+        flex-direction: column;
+    }
+    #form-details form {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    #form-details .people div p {
+        overflow: scroll;
     }
 }
