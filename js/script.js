@@ -1,3 +1,17 @@
+// button back-top
+window.addEventListener('scroll', function () {
+    var backToTopButton = document.getElementById('back-top');
+    if (document.documentElement.scrollTop > 900) {
+        backToTopButton.style.display = 'flex';
+    } else {
+        backToTopButton.style.display = 'none';
+    }
+});
+// sau khi click back-top
+document.getElementById('back-top').addEventListener('click', function () {
+    document.documentElement.scrollTop = 0;
+});
+
 // nav bar
 const bar = document.getElementById('bar');
 const nav = document.getElementById('navbar');
@@ -7,7 +21,6 @@ if (bar) {
         nav.classList.add('active');
     })
 }
-
 if (close) {
     close.addEventListener('click', () => {
         nav.classList.remove('active');
@@ -33,5 +46,8 @@ smallimg[3].onclick = function () {
     MainImg.src = smallimg[3].src;
 }
 
-//
+// an hien nut back top
+// Lắng nghe sự kiện cuộn trang
+// Lắng nghe sự kiện cuộn trang
+
 
