@@ -1,12 +1,12 @@
 // button back-top
 window.addEventListener('scroll', function () {
     var backToTopButton = document.getElementById('back-top');
-    if (document.documentElement.scrollTop > 900) {
+    if (document.documentElement.scrollTop > 700) {
         backToTopButton.style.display = 'flex';
     } else {
         backToTopButton.style.display = 'none';
     }
-});
+}); 
 // sau khi click back-top
 document.getElementById('back-top').addEventListener('click', function () {
     document.documentElement.scrollTop = 0;

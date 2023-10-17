@@ -5,6 +5,14 @@
         padding: 40px 40px;
     }
 
+    /* log in  */
+
+    .wrapper {
+        width: 50%;
+        top: 25%;
+        left: 25%;
+    }
+
     /* home page */
     #navbar {
         display: flex;
@@ -48,6 +56,10 @@
         left: 30px;
         color: #222;
         font-size: 24px;
+    }
+    #bag {
+        display: initial;
+        padding: 0 20px;
     }
 
     #lg-bag {
@@ -132,6 +144,24 @@
 /* iphone x =)) */
 
 @media(max-width: 477px){
+
+    /* login register  */
+
+    .wrapper {
+            width: 80%;
+            top: 25%;
+            left: 10%;
+    }
+    
+    .remember-forgot label {
+        font-size: 12px;
+    }
+    .remember-forgot a {
+        font-size: 12px;
+    }
+
+    /* home page  */
+
     .section-p{
         padding: 20px;
     }
